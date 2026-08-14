@@ -1,0 +1,18 @@
+# Model Context Protocol (MCP) Official SDK & CLI
+mcp[cli]>=1.2.0
+
+# Data Validation & Schema Generation for MCP Tools
+pydantic>=2.0.0
+
+# Async HTTP Client for external API calls and SSE connections
+httpx>=0.27.0
+
+# Environment Variable Management (Loading secret keys safely)
+python-dotenv>=1.0.0
+
+# ASGI Server and Framework (For SSE/HTTP MCP Servers)
+uvicorn>=0.30.0
+starlette>=0.38.0
+
+# Helper utilities
+typing-extensions>=4.10.0
