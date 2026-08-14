@@ -19,4 +19,5 @@ typing-extensions>=4.10.0
 langchain
 langchain-groq
 langchain-mcp-adapters
-fastmcp
+langgraph
+dotenv
