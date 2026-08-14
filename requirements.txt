@@ -17,3 +17,6 @@ starlette>=0.38.0
 # Helper utilities
 typing-extensions>=4.10.0
 langchain
+langchain-groq
+langchain-mcp-adapters
+fastmcp
