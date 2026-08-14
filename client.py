@@ -16,7 +16,7 @@ async def main():
                 "transport":"stdio"
             },
             "weather":{
-                "url":"http://127.0.0.1:8000/mcp", #ensure server is running here
+                "url":"http://localhost:8000/mcp", #ensure server is running here
                 "transport":"streamable-http"
             }
         }
@@ -25,8 +25,8 @@ async def main():
     os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
 
     tools = await client.get_tools()
-    model = ChatGroq(model="llama3.1:latest")
-    agent = create_react_agent(model,tools)
+    model = ChatGroq(model="llama-3.3-70b-versatile")
+    agent = create_react_agent(model, tools)
 
     math_response = await agent.ainvoke({"messages":[
         {"role":"user","content":"what is 2345 * 1097"}
