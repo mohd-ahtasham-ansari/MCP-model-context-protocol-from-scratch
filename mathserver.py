@@ -43,3 +43,9 @@ def mod(a:int,b:int)->int:
     """
     return a % b
 
+##the transport="stdio" argument tells the server to :
+
+#use Standard input and output (stdin/stdout) to recieve and respond to tool functions calls
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")
