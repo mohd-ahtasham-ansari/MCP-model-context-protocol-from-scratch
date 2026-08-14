@@ -101,3 +101,9 @@ This project includes a strict `.gitignore` to ensure `.env` files, API keys, cr
 ## 📝 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## ✅ Completed
+
+This repository now includes a fully functional Model Context Protocol (MCP) implementation. All components have been tested and verified. The example client demonstrates math and weather tool usage, and the server runs without errors. Feel free to explore and extend further.
+
+Thank you for using the MCP tutorial!
